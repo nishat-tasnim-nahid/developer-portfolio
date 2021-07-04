@@ -14,6 +14,7 @@ h1{
     }
     .half-width{
         width: 50%;
+
     }
     .half-width img{
         width: 90%;
@@ -35,4 +36,26 @@ h1{
         background-image: url(images/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
+    }
+    .bottom-banner{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .difference-item{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 20px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 40px gray;
+        border-left: 7px solid lightseagreen;
+    }
+    #diffrent-border{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue,cyan);
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
     }
